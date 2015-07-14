@@ -13,10 +13,12 @@
 
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="css/freelancer.css" rel="stylesheet">
-        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <!--<link href="css/freelancer.css" rel="stylesheet">-->
+        <link href="css/animate.css" rel="stylesheet">
+        <link rel="stylesheet/less" type="text/css" href="less/freelancer.less" />
 
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,34 +34,12 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script>
-
-        </script>
-        <style>
-            /* jssor slider arrow navigator skin 06 css */
-            /*
-            .jssora06l                  (normal)
-            .jssora06r                  (normal)
-            .jssora06l:hover            (normal mouseover)
-            .jssora06r:hover            (normal mouseover)
-            .jssora06l.jssora06ldn      (mousedown)
-            .jssora06r.jssora06rdn      (mousedown)
-            */
-            .jssora06l, .jssora06r {
-                display: block;
-                position: absolute;
-                /* size of arrow element */
-                width: 45px;
-                height: 45px;
-                cursor: pointer;
-                background: url(img/a06.png) no-repeat;
-                overflow: hidden;
-            }
-            .jssora06l { background-position: -8px -38px; }
-            .jssora06r { background-position: -68px -38px; }
-            .jssora06l:hover { background-position: -128px -38px; }
-            .jssora06r:hover { background-position: -188px -38px; }
-        </style>
+        <!--        <script>
+        
+                </script>
+                <style>
+             
+                </style>-->
     </head>
 
     <body id="page-top" class="index">
@@ -91,6 +71,12 @@
                             <a href="#about">About</a>
                         </li>
                         <li class="page-scroll">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li class="page-scroll">
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -105,8 +91,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img class="img-responsive" src="img/profile.png" alt="">
-                        <div class="intro-text">
+                        <img class="img-responsive" src="img/dp-1.png" alt="">
+                        <div class="intro-text bounceIn">
                             <span class="name">Soumya Sunny</span>
                             <hr class="star-light">
                             <span class="skills">Web Developer</span>
@@ -121,7 +107,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Projects</h2>
+                        <h2 class="section-title">Projects</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
@@ -129,8 +115,10 @@
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
+
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <h4 style="color: white">  BI Portal</h4>                                 
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
                             <img src="img/portfolio/snap_ico_2.jpg" class="img-responsive" alt="">
@@ -140,27 +128,30 @@
                         <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <h4 style="color: white">  Rig Scheduler</h4>  
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                            <img src="img/portfolio/cake3.png" class="img-responsive" alt="">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                       <h4 style="color: white">  WBS Analytics</h4>  
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                            <img src="img/portfolio/wbs-ico.png" class="img-responsive" alt="">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                   
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
                             <img src="img/portfolio/game.png" class="img-responsive" alt="">
@@ -195,32 +186,330 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>About</h2>
+                        <h2 class="section-title">About</h2>
                         <hr class="star-light">
                     </div>
                 </div>
                 <div class="row">
+                    <p class="col-lg-8 col-lg-offset-2">HELLO, MY NAME IS SOUMYA.<p>
                     <div class="col-lg-4 col-lg-offset-2">
-                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                        <p>I am 25 years young, a highly motivated creative developer with international client portfolio. I convert ideas to products using my strong analytical skills together with my teammates.</p>
                     </div>
                     <div class="col-lg-4">
-                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        <p>I currently work at Rapid Value IT Services, where I spend most of my time crafting and working on awesome projects.</p>
                     </div>
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <a href="#" class="btn btn-lg btn-outline">
-                            <i class="fa fa-download"></i> Download Theme
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </section>
 
+        <section id="skills" class="section">
+            <div class="container section-wrapper">
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2 class="section-title">Skills &amp; Expertise</h2>
+                            <hr class="star-primary">
+
+                            <!--                        <p class="section-subtitle animated bounceInLeft" style="opacity: 1;">A winner is someone who recognizes his God-given talents, works his tail off to develop them into skills, and uses these skills to accomplish his goals.</p>-->
+
+                            <span class="divider center"></span>
+                        </div>
+                        <!-- //.col-md-8 -->
+                    </div>
+                    <!-- //.row -->
+
+                    <!-- CIRCLE CHART START -->
+                    <div class="circle-chart">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-2">
+                                <div class="item">
+                                    <div class="circle">
+                                        <span class="item-progress" data-percent="65" style="height: 70.2px;"></span>
+                                    </div>
+                                    <!-- //.circle -->
+
+                                    <span class="percent">65%</span>
+
+                                    <h4 class="text-center uppercase">JavaScript</h4>
+                                </div>
+                                <!-- //.item -->
+                            </div>
+                            <!-- //.col-md-2 -->
+
+                            <div class="col-sm-4 col-md-2">
+                                <div class="item">
+                                    <div class="circle">
+                                        <span class="item-progress" data-percent="65" style="height: 70.2px;"></span>
+                                    </div>
+                                    <!-- //.circle -->
+
+                                    <span class="percent">65%</span>
+
+                                    <h4 class="text-center uppercase">ExtJs</h4>
+                                </div>
+                                <!-- //.item -->
+                            </div>
+                            <!-- //.col-md-2 -->
+
+                            <div class="col-sm-4 col-md-2">
+                                <div class="item">
+                                    <div class="circle">
+                                        <span class="item-progress" data-percent="60" style="height: 62.4px;"></span>
+                                    </div>
+                                    <!-- //.circle -->
+
+                                    <span class="percent">60%</span>
+
+                                    <h4 class="text-center uppercase">HTML5 + CSS3</h4>
+                                </div>
+                                <!-- //.item -->
+                            </div>
+                            <!-- //.col-md-2 -->
+
+                            <div class="col-sm-4 col-md-2">
+                                <div class="item">
+                                    <div class="circle">
+                                        <span class="item-progress" data-percent="60" style="height: 62.6px;"></span>
+                                    </div>
+                                    <!-- //.circle -->
+
+                                    <span class="percent">60%</span>
+
+                                    <h4 class="text-center uppercase">jQuery</h4>
+                                </div>
+                                <!-- //.item -->
+                            </div>
+                            <!-- //.col-md-2 -->
+
+                            <div class="col-sm-4 col-md-2">
+                                <div class="item">
+                                    <div class="circle">
+                                        <span class="item-progress" data-percent="50" style="height: 55.2px;"></span>
+                                    </div>
+                                    <!-- //.circle -->
+
+                                    <span class="percent">50%</span>
+
+                                    <h4 class="text-center uppercase">bootstrap</h4>
+                                </div>
+                                <!-- //.item -->
+                            </div>
+                            <!-- //.col-md-2 -->
+
+                            <div class="col-sm-4 col-md-2">
+                                <div class="item last">
+                                    <div class="circle">
+                                        <span class="item-progress" data-percent="40" style="height: 45.4px;"></span>
+                                    </div>
+                                    <!-- //.circle -->
+
+                                    <span class="percent">40%</span>
+
+                                    <h4 class="text-center uppercase">Phonegap</h4>
+                                </div>
+                                <!-- //.item -->
+                            </div>
+                            <!-- //.col-md-2 -->
+                        </div>
+                        <!-- //.row -->
+                    </div>
+                    <!-- //CIRCLE CHART END -->
+                </div>
+                <!-- //.section-content -->
+            </div>
+            <!-- //.container -->
+        </section>
+
         <!-- Contact Section -->
+
+
+        <section class="success" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title">Resume</h2>
+                        <hr class="star-light">
+                    </div>
+                </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <h3>
+                        Education
+                        <br>
+                        2007- 2012
+                    </h3>
+
+                    <div class="panel-group resume" id="education">
+                        <div class="resume-item">
+                            <div class="resume-year">
+                                <span class="resume-year">2011 - 2012</span>
+                            </div>
+
+
+                            <div class="resume-btn">
+                                <a href="#education1" data-toggle="collapse" data-parent="#education"></a>
+                            </div>
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <h4 class="resume-title">DJVT - NIIT</h4>
+                                    </div>
+                                </div>
+
+
+                                <div id="education1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>
+                                            Diploma In Java Technology from NIIT, Bangalore
+                                        </p>
+                                        <p>
+                                            Course Duration : 6 months
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="resume-item animated bounceInUp" style="opacity: 1;">
+                            <div class="resume-year">
+                                <span class="resume-year">2007 - 2011</span>
+                            </div>
+
+
+                            <div class="resume-btn">
+                                <a href="#education2" class="collapsed" data-toggle="collapse" data-parent="#education" aria-expanded="false"></a>
+                            </div>
+
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <h4 class="resume-title">BTech - Kannur University</h4>
+                                    </div>
+
+                                </div>
+
+
+                                <div id="education2" class="panel-collapse collapse" aria-expanded="false">
+                                    <div class="panel-body text-grey">
+                                        <p>
+                                            Bachelor of Technology in Electronics and Communication from Vimal Jyothi Engineering College, Kannur
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="row work-experience">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h3>
+                            Work Experience
+                            <br>
+                            2012 - Now
+                        </h3>
+
+                        <div class="panel-group resume" id="work">
+                            <div class="resume-item">
+                                <div class="resume-year">
+                                    <span class="resume-year">2013 - Now</span>
+                                </div>
+                                <!-- //.resume-year -->
+
+                                <div class="resume-btn">
+                                    <a href="#work1" data-toggle="collapse" data-parent="#work"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Software Engineer - RapidValue IT Services</h4>
+                                        </div>
+                                    </div>
+
+
+                                    <div id="work1" class="panel-collapse collapse in">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Responsibilities:
+                                                <br>
+                                                Design, develop, and debug User Interface.
+                                                <br>
+                                                Interact with product management, backend engineers and develop product user interface functional specification
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="resume-item animated bounceInUp" style="opacity: 1;">
+                                <div class="resume-year">
+                                    <span class="resume-year">2012</span>
+                                </div>
+
+
+                                <div class="resume-btn">
+                                    <a href="#work4" class="collapsed" data-toggle="collapse" data-parent="#work" aria-expanded="false"></a>
+                                </div>
+                                <!-- //.resume-btn -->
+
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <h4 class="resume-title">Associate Software Engineer-Trainee - Torry Harris Business Solutions</h4>
+                                        </div>
+                                        <!-- //.panel-title -->
+                                    </div>
+                                    <!-- //.panel-heading -->
+
+                                    <div id="work4" class="panel-collapse collapse" aria-expanded="false">
+                                        <div class="panel-body text-grey">
+                                            <p>
+                                                Responsibilities:
+                                                <br>
+                                                Design, implement and maintain java application phases. 
+
+                                            </p>
+                                        </div>
+                                        <!-- //.panel-body -->
+                                    </div>
+                                    <!-- //.panel-collapse -->
+                                </div>
+                                <!-- //.panel -->
+                            </div>
+                            <!-- //.resume-item -->
+                        </div>
+                        <!-- //.panel-group -->
+                    </div>
+                    <!-- //.col-md-10 -->
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="assets/Soumya_Sunny.doc" class="btn btn-lg btn-outline" download>
+                        <i class="fa fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
         <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Contact Me</h2>
+                        <h2 class="section-title">Contact Me</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
@@ -229,6 +518,7 @@
                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                         <form name="sentMessage" id="contactForm" novalidate>
+                            <?php include '../mail/contact_me.php';?>
                             <div class="row control-group">
                                 <div class="form-group col-xs-12 floating-label-form-group controls">
                                     <label>Name</label>
@@ -269,40 +559,37 @@
                 </div>
             </div>
         </section>
-
         <!-- Footer -->
         <footer class="text-center">
             <div class="footer-above">
                 <div class="container">
                     <div class="row">
-                        <div class="footer-col col-md-4">
+                        <div class="footer-col col-md-6">
                             <h3>Location</h3>
-                            <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                            <p>#37<br>Cochin, Kerala</p>
                         </div>
-                        <div class="footer-col col-md-4">
+                        <div class="footer-col col-md-6">
                             <h3>Around the Web</h3>
                             <ul class="list-inline">
                                 <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/soumya.sunny.12" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                    <a href="https://www.google.com/+soumyasunny9095" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://in.linkedin.com/in/soumyasunny" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="footer-col col-md-4">
-                            <h3>About Freelancer</h3>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -310,7 +597,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            Copyright &copy; Your Website 2014
+                            Copyright &copy; Soumya Sunny 2015
                         </div>
                     </div>
                 </div>
@@ -338,30 +625,26 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>BI portal</h2>
-                                <hr class="star-primary">
-                                <div id="slider1_container" style="position: relative;margin-top: 20px; top: 0px;  bottom: 20px; left: 0px; width: 800px; height: 550px;">
-                                    <!-- Slides Container -->
-                                    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;width: 800px; height: 550px;">
-                                        <div><img u="image" src="img/bi/d.png" /></div>
-                                        <div><img u="image" src="img/bi/p.png" /></div>
-                                        <div><img u="image" src="img/bi/de.png" /></div>
-                                        <div><img u="image" src="img/bi/f.png" /></div>
-                                        <div><img u="image" src="img/bi/pd.png" /></div>
-                                        <div><img u="image" src="img/bi/mc.png" /></div>
+                                <hr class="star-primary" style="margin-bottom:  20px;">
+                                <div id="slider1_container" class="slider-container">
+                                    <!--Slides Container--> 
+                                    <div u="slides"  class="slider-container-inner">
+                                        <div ><img u="image"  src="img/bi/d.png" class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image"  src="img/bi/p.png" class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/bi/de.png" class="img-responsive img-centered img-border"/></div>
+                                        <div><img u="image" src="img/bi/f.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/bi/pd.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/bi/mc.png"  class="img-responsive img-centered img-border"/></div>
                                     </div>
-                                    <!-- Arrow Navigator Skin Begin -->
-                                    ...
-                                    <!-- Arrow Left -->
-                                    <span u="arrowleft" class="jssora06l" style="top: 223px; left: 0px !important;"></span>
-                                    <!-- Arrow Right -->
-                                    <span u="arrowright" class="jssora06r" style="top: 223px;  right: 0px !important;  left: initial !important;"></span>
-                                    ...
-                                    <!-- Arrow Navigator Skin End -->
+
                                 </div>
-                                <!--                            <img src="img/portfolio/snap_ico_2.jpg" class="img-responsive img-centered" alt="">-->
                                 <p style="margin-top: 20px;">The BI Portal is an enterprise portal that helps in gaining control over the information (data) and helps in making faster decisions. The Portal is one stop shop for all Business Intelligence and Analytical needs. Application will auto fit to various browser sizes and in the Tablets.</p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
+                                    <li>Organization :
+                                        <strong><a href=""> Rapid Value IT Services</a>
+                                        </strong>
+                                    </li>
+                                    <li>Client :
                                         <strong><a href="http://www.devonenergy.com">Devon Energy</a>
                                         </strong>
                                     </li>
@@ -369,10 +652,11 @@
                                         <strong><a href="">Ext JS, jQuery, bootstrap and less</a>
                                         </strong>
                                     </li>
-                                    <li>Role:
+                                    <li>Role :
                                         <strong><a href=""> Development</a>
                                         </strong>
                                     </li>
+
                                 </ul>
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
@@ -393,21 +677,37 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>Rig Scheduler</h2>
                                 <hr class="star-primary">
-                                <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <div id="slider2_container" class="slider-container" >
+                                    <!--Slides Container--> 
+                                    <div u="slides" class="slider-container-inner">
+                                        <div><img u="image" src="img/rs/rs-a.png"  class="img-responsive img-centered img-border"/></div>
+                                        <div><img u="image" src="img/rs/rs-addj.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/rs/rs-c.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/rs/rs-j3.png"  class="img-responsive img-centered img-border"/></div>
+                                        <div><img u="image" src="img/rs/rs-m3.png" class="img-responsive img-centered img-border"  /></div>
+                                        <div><img u="image" src="img/rs/rs-mv2.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/rs/rs-unJ1.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/rs/rs-uvc2.png"  class="img-responsive img-centered img-border"/></div>
+                                    </div>
+                                </div>
+                                <p>This project is a tool for oil and gas companies. This tool allows the user to schedule the rigs in such a way that maximum profit is obtained and none of the constraints are violated.  It can also be linked with another tool ‘Predrill Workflow’ which handles the creation of wells.</p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <li>Organization :
+                                        <strong><a href=""> Rapid Value IT Services</a>
                                         </strong>
                                     </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <li>Client :
+                                        <strong><a href="">SevenLakes Technologies</a>
                                         </strong>
                                     </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <li>Technology/Tools :
+                                        <strong><a href="">Ext JS and sass</a>
+                                        </strong>
+                                    </li>
+                                    <li>Role :
+                                        <strong><a href=""> Development</a>
                                         </strong>
                                     </li>
                                 </ul>
@@ -430,21 +730,36 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>WBS Analytics</h2>
                                 <hr class="star-primary">
-                                <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <div id="slider3_container" class="slider-container">
+                                    <!--Slides Container--> 
+                                    <div u="slides"  class="slider-container-inner">
+                                        <div ><img u="image"  src="img/bi/d.png" class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image"  src="img/bi/p.png" class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/bi/de.png" class="img-responsive img-centered img-border"/></div>
+                                        <div><img u="image" src="img/bi/f.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/bi/pd.png"  class="img-responsive img-centered img-border" /></div>
+                                        <div><img u="image" src="img/bi/mc.png"  class="img-responsive img-centered img-border"/></div>
+                                    </div>
+
+                                </div>
+                                <p>This is a dashboard showing the various Work Breakdown Structures. It enables the user to view the summary of various cost centers, wells and WBSs. Data in each page depends on the filters </p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <li>Organization :
+                                        <strong><a href=""> Rapid Value IT Services</a>
                                         </strong>
                                     </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <li>Client :
+                                        <strong><a href="">SevenLakes Technologies</a>
                                         </strong>
                                     </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <li>Technology/Tools :
+                                        <strong><a href="">Ext JS and sass</a>
+                                        </strong>
+                                    </li>
+                                    <li>Role :
+                                        <strong><a href=""> Development</a>
                                         </strong>
                                     </li>
                                 </ul>
@@ -577,6 +892,8 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="js/classie.js"></script>
         <script src="js/cbpAnimatedHeader.js"></script>
+        <script src="js/jssor.slider.mini.js"></script>
+        <script src="js/less.min.js"></script>
 
         <!-- Contact Form JavaScript -->
         <script src="js/jqBootstrapValidation.js"></script>
@@ -584,7 +901,7 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/freelancer.js"></script>
-        <script src="js/jssor.slider.mini.js"></script>
+
     </body>
 
 </html>
